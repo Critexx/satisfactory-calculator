@@ -79,7 +79,7 @@
 	    {
             "name": "Packager",
             "key_name": "packager",
-            "category": "refining2",
+            "category": "packaging",
             "power": 10,
             "max": 2
         }
@@ -1540,7 +1540,7 @@
 		{
             "name": "Packaged Water",
             "key_name": "packaged-water",
-            "category": "refining2",
+            "category": "packaging",
             "time": 2,
             "ingredients": [
                 ["water", 2],
@@ -1573,7 +1573,7 @@
 		{
             "name": "Packaged Fuel",
             "key_name": "packaged-fuel",
-            "category": "refining2",
+            "category": "packaging",
             "time": 3,
             "ingredients": [
                 ["fuel", 2],
