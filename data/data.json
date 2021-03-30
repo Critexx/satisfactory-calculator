@@ -191,13 +191,13 @@
             "name": "Iron Plate",
             "key_name": "iron-plate",
             "tier": -1,
-            "stack_size": 100
+            "stack_size": 200
         },
         {
             "name": "Iron Rod",
             "key_name": "iron-rod",
             "tier": -1,
-            "stack_size": 100
+            "stack_size": 200
         },
         {
             "name": "Wire",
@@ -209,7 +209,7 @@
             "name": "Cable",
             "key_name": "cable",
             "tier": 0,
-            "stack_size": 100
+            "stack_size": 200
         },
         {
             "name": "Biomass",
@@ -221,7 +221,7 @@
             "name": "Concrete",
             "key_name": "concrete",
             "tier": 0,
-            "stack_size": 100
+            "stack_size": 500
         },
         {
             "name": "Leaves",
@@ -1106,7 +1106,7 @@
             "ingredients": [
                 ["mycelia", 10]
             ],
-            "product": ["biomass", 150]
+            "product": ["biomass", 10]
         },
         {
             "name": "Solid Biofuel",
@@ -1944,11 +1944,11 @@
             "name": "Biomass",
             "key_name": "biomass-from-alien-organs",
             "category": "crafting1",
-            "time": 4,
+            "time": 8,
             "ingredients": [
                 ["alien-organs", 1]
             ],
-            "product": ["biomass", 100]
+            "product": ["biomass", 200]
         },
         {
             "name": "Cartridge",
