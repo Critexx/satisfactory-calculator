@@ -660,6 +660,12 @@
             "key_name": "iodine-infused-filter",
             "tier": 7,
             "stack_size": 100
+        },
+	    		{
+            "name": "Nitrogen Gas",
+            "key_name": "nitrogen-gas",
+            "tier": 8,
+            "stack_size": 50
         }
     ],
     "recipes": [
@@ -2310,6 +2316,10 @@
 		    {
             "key_name": "water",
             "category": "water"
+        },
+	    {
+            "key_name": "nitrogen-gas",
+            "category": "gas"
         }
     ]
 }
