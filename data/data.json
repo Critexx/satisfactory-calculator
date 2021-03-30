@@ -591,6 +591,12 @@
                 "tier": 7,
                 "stack_size": 50
             },
+	    {
+                "name": "Packaged Alumina Solution",
+                "key_name": "packaged-alumina-solution",
+                "tier": 7,
+                "stack_size": 100
+            },
 		{
             "name": "Aluminum Scrap",
             "key_name": "aluminum-scrap",
@@ -2082,6 +2088,17 @@
                 ["water", 10]
             ],
             "product": ["alumina-solution", 8]
+        },
+	    {
+            "name": "Packaged Alumina Solution",
+            "key_name": "packaged-alumina-solution",
+            "category": "refining2",
+            "time": 1,
+            "ingredients": [
+                ["alumina-solution", 2],
+                ["empty-canister", 2]
+            ],
+            "product": ["packaged-alumina-solution", 2]
         },
 		{
             "name": "Aluminum Scrap",
