@@ -1540,7 +1540,7 @@
 		{
             "name": "Packaged Water",
             "key_name": "packaged-water",
-            "category": "refining",
+            "category": "refining2",
             "time": 2,
             "ingredients": [
                 ["water", 2],
