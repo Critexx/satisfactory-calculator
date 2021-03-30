@@ -1573,7 +1573,7 @@
 		{
             "name": "Packaged Fuel",
             "key_name": "packaged-fuel",
-            "category": "refining",
+            "category": "refining2",
             "time": 3,
             "ingredients": [
                 ["fuel", 2],
