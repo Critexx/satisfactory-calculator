@@ -793,28 +793,7 @@
             ],
             "product": ["copper-ingot", 1]
         },
-        {
-            "name": "Alternate: Copper Alloy Ingot",
-            "key_name": "alt-copper-alloy-ingot",
-            "category": "smelting2",
-            "time": 12,
-            "ingredients": [
-                ["copper-ore", 10],
-                ["iron-ore", 5]
-            ],
-            "product": ["copper-ingot", 20]
-        },
-        {
-            "name": "Alternate: Pure Copper Ingot",
-            "key_name": "alt-pure-copper-ingot",
-            "category": "refining",
-            "time": 24,
-            "ingredients": [
-                ["copper-ore", 6],
-                ["water", 4]
-            ],
-            "product": ["copper-ingot", 15]
-        },
+
         {
             "name": "Steel Ingot",
             "key_name": "steel-ingot",
