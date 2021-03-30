@@ -1596,6 +1596,17 @@
             ],
             "product": ["fuel", 4]
         },
+	    {
+            "name": "Alternate: Diluted Fuel",
+            "key_name": "alt-fuel",
+            "category": "crafting4",
+            "time": 6,
+            "ingredients": [
+                ["heavy-oil-residue", 5],
+		["water", 10]
+            ],
+            "product": ["fuel", 10]
+        },
 		{
             "name": "Packaged Turbofuel",
             "key_name": "packaged-turbofuel",
