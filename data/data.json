@@ -431,7 +431,7 @@
             "name": "Heavy Modular Frame",
             "key_name": "heavy-modular-frame",
             "tier": 4,
-            "stack_size": 100
+            "stack_size": 50
         },
         {
             "name": "Computer",
@@ -707,12 +707,12 @@
             "name": "Automated Wiring",
             "key_name": "automated-wiring",
             "category": "crafting2",
-            "time": 72,
+            "time": 24,
             "ingredients": [
-                ["stator", 3],
-				["cable", 60]
+                ["stator", 1],
+				["cable", 20]
             ],
-            "product": ["automated-wiring", 3]
+            "product": ["automated-wiring", 1]
         },
 		{
             "name": "Alternate: Automated Speed Wiring",
@@ -1345,6 +1345,17 @@
                 ["crystal-oscillator", 1]
             ],
             "product": ["motor", 6]
+        },
+	    {
+            "name": "Alternate: Electric Motor",
+            "key_name": "alt-electric-motor",
+            "category": "crafting2",
+            "time": 16,
+            "ingredients": [
+                ["em-control-rod", 1],
+                ["rotor", 2]
+            ],
+            "product": ["motor", 2]
         },
         {
             "name": "Circuit Board",
