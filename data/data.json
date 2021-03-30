@@ -105,6 +105,13 @@
             "category": "oil",
             "base_rate": 120,
             "power": 40
+        },
+	    {
+            "name": "Resource Well Extractor",
+            "key_name": "resource-well-extractor",
+            "category": "gas",
+            "base_rate": 60,
+            "power": 10
         }
     ],
     "items": [
