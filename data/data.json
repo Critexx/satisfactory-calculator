@@ -1496,6 +1496,27 @@
 				],
             "product": ["empty-canister", 4]
         },
+	    {
+            "name": "Alternate: Steel Canister",
+            "key_name": "alt-steel-canister",
+            "category": "crafting1",
+            "time": 3,
+            "ingredients": [
+                ["steel-ingot", 3]
+				],
+            "product": ["empty-canister", 2]
+        },
+	    {
+            "name": "Alternate: Coated Iron Canister",
+            "key_name": "alt-coated-canister",
+            "category": "crafting2",
+            "time": 4,
+            "ingredients": [
+                ["iron-plate", 2],
+		["copper-sheet", 1]
+				],
+            "product": ["empty-canister", 4]
+        },
 		{
             "name": "Packaged Water",
             "key_name": "packaged-water",
