@@ -1588,7 +1588,7 @@
         },
 		{
             "name": "Residual Fuel",
-            "key_name": "fuel",
+            "key_name": "alt-fuel",
             "category": "refining",
             "time": 6,
             "ingredients": [
@@ -1598,7 +1598,7 @@
         },
 	    {
             "name": "Alternate: Diluted Fuel",
-            "key_name": "alt-fuel",
+            "key_name": "alt-diluted-fuel",
             "category": "crafting4",
             "time": 6,
             "ingredients": [
