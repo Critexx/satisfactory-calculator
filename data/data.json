@@ -48,6 +48,13 @@
             "power": 55,
             "max": 4
         },
+	    {
+            "name": "Blender",
+            "key_name": "blender",
+            "category": "crafting4",
+            "power": 75,
+            "max": 4
+        },
         {
             "name": "Smelter",
             "key_name": "smelter",
@@ -67,6 +74,13 @@
             "key_name": "oil-refinery",
             "category": "refining",
             "power": 30,
+            "max": 2
+        },
+	    {
+            "name": "Packager",
+            "key_name": "packager",
+            "category": "refining2",
+            "power": 10,
             "max": 2
         }
     ],
