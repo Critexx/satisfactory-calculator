@@ -2428,8 +2428,18 @@
                 ["empty-fluid-tank", 1]
             ],
             "product": ["packaged-nitrogen-gas", 1]
+        },
+	    {
+            "name": "Packaged Nitric Acid",
+            "key_name": "packaged-nitric-acid",
+            "category": "packaging",
+            "time": 2,
+            "ingredients": [
+                ["nitric-acid", 1],
+                ["empty-fluid-tank", 1]
+            ],
+            "product": ["packaged-nitric-acid", 1]
         }
-	 
     ],
     "resources": [
         {
