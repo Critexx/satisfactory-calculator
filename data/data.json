@@ -2781,6 +2781,33 @@
 		["uranium-fuel-rod", 1]
             ],
             "product": ["uranium-waste", 100]
+        },
+	    
+   	    {
+            "name": "Non-fissile Uranium",
+            "key_name": "non-fissile-uranium",
+            "category": "crafting4",
+            "time": 12,
+            "ingredients": [
+                ["uranium-waste", 15],
+                ["nitric-acid", 3],
+                ["sulfuric-acid", 6],
+		["silica", 5]
+            ],
+            "product": ["non-fissile-uranium", 10]
+        },
+   	    {
+            "name": "Alternate: Fertile Uranium",
+            "key_name": "alt-fertile-uranium",
+            "category": "crafting4",
+            "time": 12,
+            "ingredients": [
+                ["uranium", 5],
+                ["uranium-waste", 10],
+                ["nitric-acid", 15],
+		["sulfuric-acid", 15]
+            ],
+            "product": ["non-fissile-uranium", 20]
         }
     ],
     "resources": [
