@@ -1885,6 +1885,30 @@
             "product": ["supercomputer", 1]
         },
         {
+            "name": "Alternative: OC Supercomputer",
+            "key_name": "alt-oc-supercomputer",
+            "category": "crafting2",
+            "time": 20,
+            "ingredients": [
+                ["radio-control-unit", 3],
+                ["cooling-system", 3]
+            ],
+            "product": ["supercomputer", 1]
+        },
+        {
+            "name": "Alternate: Super-State Computer",
+            "key_name": "alt-super-state-computer",
+            "category": "crafting3",
+            "time": 50,
+            "ingredients": [
+                ["computer", 3],
+                ["em-control-rod", 2],
+                ["battery", 20],
+                ["wire", 45]
+            ],
+            "product": ["supercomputer", 2]
+        },
+        {
             "name": "High-Speed Connector",
             "key_name": "high-speed-connector",
             "category": "crafting3",
