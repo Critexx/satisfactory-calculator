@@ -2789,7 +2789,7 @@
             "category": "crafting4",
             "time": 12,
             "ingredients": [
-                ["nuclear-waste", 15],
+                ["uranium-waste", 15],
                 ["nitric-acid", 3],
                 ["sulfuric-acid", 6],
 		["silica", 5]
@@ -2803,7 +2803,7 @@
             "time": 12,
             "ingredients": [
                 ["uranium", 5],
-                ["nuclear-waste", 10],
+                ["uranium-waste", 10],
                 ["nitric-acid", 15],
 		["sulfuric-acid", 15]
             ],
@@ -2816,7 +2816,7 @@
             "time": 60,
             "ingredients": [
                 ["non-fissile-uranium", 100],
-		["nuclear-waste", 50]
+		["uranium-waste", 50]
             ],
             "product": ["plutonium-pellet", 30]
         },
