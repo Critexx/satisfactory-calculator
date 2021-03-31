@@ -808,6 +808,12 @@
             "key_name": "encased-plutonium-cell",
             "tier": 8,
             "stack_size": 200
+        },
+	            {
+            "name": "Plutonium Fuel Rod",
+            "key_name": "plutonium-fuel-rod",
+            "tier": 8,
+            "stack_size": 50
         }
     ],
     "recipes": [
@@ -2844,6 +2850,30 @@
 		["nitrogen-gas", 25]
             ],
             "product": ["encased-plutonium-cell", 25]
+        },
+	    {
+            "name": "Plutonium Fuel Rod",
+            "key_name": "plutonium-fuel-rod",
+            "category": "crafting3",
+            "time": 120,
+            "ingredients": [
+                ["encased-plutonium-cell", 15],
+                ["steel-beam", 8],
+		["em-control-rod", 3],
+		["heat-sink", 5]
+            ],
+            "product": ["plutonium-fuel-rod", 1]
+        },
+	    {
+            "name": "Alternate: Plutonium Fuel Unit",
+            "key_name": "alt-plutonium-fuel-unit",
+            "category": "crafting2",
+            "time": 60,
+            "ingredients": [
+                ["encased-plutonium-cell", 10],
+		["pressure-conversion-cube", 1]
+            ],
+            "product": ["plutonium-fuel-rod", 1]
         }
     ],
     "resources": [
