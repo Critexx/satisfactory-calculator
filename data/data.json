@@ -2771,6 +2771,16 @@
 		["fused-modular-frame", 2]
             ],
             "product": ["thermal-propulsion-rocket", 2]
+        },
+   	    {
+            "name": "Nuclear Waste",
+            "key_name": "nuclear-waste",
+            "category": "nuclear",
+            "time": 300,
+            "ingredients": [
+		["uranium-fuel-rod", 1]
+            ],
+            "product": ["nuclear-waste", 100]
         }
     ],
     "resources": [
