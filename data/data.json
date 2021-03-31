@@ -2820,6 +2820,30 @@
 		["uranium-waste", 50]
             ],
             "product": ["plutonium-pellet", 30]
+        },
+	    
+   	    {
+            "name": "Encased Plutonium Cell",
+            "key_name": "encased-plutonium-cell",
+            "category": "crafting2",
+            "time": 6,
+            "ingredients": [
+                ["plutonium-pellet", 1],
+		["concrete", 2]
+            ],
+            "product": ["encased-plutonium-cell", 1]
+        },
+   	    {
+            "name": "Alternate: Instant Plutonium Cell",
+            "key_name": "alt-instant-plutonium-cell",
+            "category": "crafting5",
+            "time": 60,
+            "ingredients": [
+                ["non-fissile-uranium", 75],
+                ["aluminum", 25],
+		["nitrogen-gas", 25]
+            ],
+            "product": ["encased-plutonium-cell", 25]
         }
     ],
     "resources": [
