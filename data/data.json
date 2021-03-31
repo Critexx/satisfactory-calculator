@@ -698,6 +698,24 @@
             "key_name": "nitric-acid",
             "tier": 8,
             "stack_size": 50
+        },
+	    {
+            "name": "Empty Fluid Tank",
+            "key_name": "empty-fluid-tank",
+            "tier": 8,
+            "stack_size": 100
+        },
+	    {
+            "name": "Packaged Nitrogen Gas",
+            "key_name": "packaged-nitrogen-gas",
+            "tier": 8,
+            "stack_size": 100
+        },
+	    {
+            "name": "Packaged Nitric Acid",
+            "key_name": "packaged-nitric-acid",
+            "tier": 8,
+            "stack_size": 100
         }
     ],
     "recipes": [
