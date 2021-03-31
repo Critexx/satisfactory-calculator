@@ -1536,6 +1536,19 @@
             ],
             "product": ["turbofuel", 4]
         },
+	    {
+            "name": "Alternate: Turbo Blend Fuel",
+            "key_name": "alt-turbo-blend-fuel",
+            "category": "crafting4",
+            "time": 8,
+            "ingredients": [
+                ["fuel", 2],
+		["heavy-oil-residue", 4],
+		["sulfur", 3],
+                ["petroleum-coke", 3]
+            ],
+            "product": ["turbofuel", 6]
+        },
 		{
             "name": "Empty Canister",
             "key_name": "empty-canister",
@@ -2124,10 +2137,21 @@
             "category": "refining",
             "time": 6,
             "ingredients": [
-                ["bauxite", 7],
-                ["water", 10]
+                ["bauxite", 12],
+                ["water", 18]
             ],
-            "product": ["alumina-solution", 8]
+            "product": ["alumina-solution", 12]
+        },
+	    {
+            "name": "Alternate: Sloppy Alumina",
+            "key_name": "alt-sloppy-alumina",
+            "category": "refining",
+            "time": 6,
+            "ingredients": [
+                ["bauxite", 15],
+                ["water", 15]
+            ],
+            "product": ["alumina-solution", 18]
         },
 	    {
             "name": "Packaged Alumina Solution",
@@ -2147,7 +2171,7 @@
             "time": 1,
             "ingredients": [
                 ["alumina-solution", 4],
-                ["petroleum-coke", 1]
+                ["coal", 2]
             ],
             "product": ["aluminum-scrap", 6]
         },
@@ -2158,18 +2182,31 @@
             "time": 2,
             "ingredients": [
                 ["alumina-solution", 3],
-                ["coal", 1]
+                ["petroleum-coke", 1]
             ],
-            "product": ["aluminum-scrap", 5]
+            "product": ["aluminum-scrap", 8]
+        },
+	    {
+            "name": "Alternate: Instant Scrap",
+            "key_name": "alt-instant-scrap",
+            "category": "crafting4",
+            "time": 6,
+            "ingredients": [
+                ["bauxite", 15],
+		["coal", 10],
+		["sulfuric-acid", 5],
+                ["water", 11]
+            ],
+            "product": ["aluminum-scrap", 30]
         },
         {
             "name": "Aluminum Ingot",
             "key_name": "aluminum-ingot",
             "category": "smelting2",
-            "time": 3,
+            "time": 4,
             "ingredients": [
-                ["aluminum-scrap", 12],
-                ["silica", 7]
+                ["aluminum-scrap", 6],
+                ["silica", 5]
             ],
             "product": ["aluminum-ingot", 4]
         },
@@ -2177,22 +2214,22 @@
             "name": "Alternate: Pure Aluminum Ingot",
             "key_name": "alt-aluminum-ingot",
             "category": "smelting1",
-            "time": 5,
+            "time": 20,
             "ingredients": [
-                ["aluminum-scrap", 12]
+                ["aluminum-scrap", 18]
                ],
-            "product": ["aluminum-ingot", 3]
+            "product": ["aluminum-ingot", 9]
         },
         {
             "name": "Alclad Aluminum Sheet",
             "key_name": "alclad-aluminum-sheet",
             "category": "crafting2",
-            "time": 8,
+            "time": 6,
             "ingredients": [
-                ["aluminum-ingot", 8],
-                ["copper-ingot", 3]
+                ["aluminum-ingot", 3],
+                ["copper-ingot", 1]
             ],
-            "product": ["alclad-aluminum-sheet", 4]
+            "product": ["alclad-aluminum-sheet", 3]
         },
         {
             "name": "Heat Sink",
