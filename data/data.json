@@ -737,6 +737,18 @@
             "stack_size": 50
         },
         {
+            "name": "Magnetic Field Generator",
+            "key_name": "magnetic-field-generator",
+            "tier": 8,
+            "stack_size": 50
+        },
+        {
+            "name": "Thermal Propulsion Rocket",
+            "key_name": "thermal-propulsion-rocket",
+            "tier": 8,
+            "stack_size": 50
+        },
+        {
             "name": "Uranium",
             "key_name": "uranium",
             "tier": 8,
@@ -2703,6 +2715,31 @@
                 ["supercomputer", 1]
             ],
             "product": ["assembly-director-system", 1]
+        },
+   	    {
+            "name": "Magnetic Field Generator",
+            "key_name": "magnetic-field-generator",
+            "category": "crafting3",
+            "time": 120,
+            "ingredients": [
+                ["versatile-framework", 5],
+                ["em-control-rod", 2],
+                ["battery", 10]
+            ],
+            "product": ["magnetic-field-generator", 2]
+        },
+   	    {
+            "name": "Thermal Propulsion Rocket",
+            "key_name": "thermal-propulsion-rocket",
+            "category": "crafting3",
+            "time": 120,
+            "ingredients": [
+                ["modular-engine", 5],
+                ["turbo-motor", 2],
+                ["cooling-system", 6],
+		["fused-modular-frame", 2]
+            ],
+            "product": ["thermal-propulsion-rocket", 2]
         }
     ],
     "resources": [
