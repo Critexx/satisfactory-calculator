@@ -2536,7 +2536,7 @@
                 ["empty-fluid-tank", 1]
             ],
             "product": ["packaged-nitric-acid", 1]
-        }
+        },
 	    {
             "name": "Cooling System",
             "key_name": "cooling-system",
