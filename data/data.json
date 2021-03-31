@@ -2407,39 +2407,8 @@
                 ["iron-plate", 1]
             ],
             "product": ["nitric-acid", 6]
-        },
-	    {
-            "name": "Empty Fluid Tank",
-            "key_name": "empty-fluid-tank",
-            "category": "crafting1",
-            "time": 1,
-            "ingredients": [
-                ["aluminum-ingot", 1]
-            ],
-            "product": ["empty-fluid-tank", 1]
-        },
-	    {
-            "name": "Packaged Nitrogen Gas",
-            "key_name": "packaged-nitrogen-gas",
-            "category": "packaging",
-            "time": 1,
-            "ingredients": [
-                ["nitrogen-gas", 4],
-                ["empty-fluid-tank", 1]
-            ],
-            "product": ["packaged-nitrogen-gas", 1]
-        },
-	    {
-            "name": "Packaged Nitric Acid",
-            "key_name": "packaged-nitric-acid",
-            "category": "packaging",
-            "time": 2,
-            "ingredients": [
-                ["nitric-acid", 1],
-                ["empty-fluid-tank", 1]
-            ],
-            "product": ["packaged-nitric-acid", 1]
         }
+	    
     ],
     "resources": [
         {
