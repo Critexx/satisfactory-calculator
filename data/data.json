@@ -55,6 +55,13 @@
             "power": 75,
             "max": 4
         },
+	    {
+            "name": "Particle Accelerator",
+            "key_name": "particle-accelerator",
+            "category": "crafting5",
+            "power": 1500,
+            "max": 3
+        },
         {
             "name": "Smelter",
             "key_name": "smelter",
@@ -644,6 +651,12 @@
             "key_name": "packaged-sulfuric-acid",
             "tier": 7,
             "stack_size": 100
+        },
+	  {
+            "name": "Assembly Director System",
+            "key_name": "assembly-director-system",
+            "tier": 7,
+            "stack_size": 50
         },  
         {
             "name": "Iodine Infused Filter",
@@ -710,6 +723,18 @@
             "key_name": "turbo-motor",
             "tier": 8,
             "stack_size": 100
+        },
+        {
+            "name": "Copper Powder",
+            "key_name": "copper-powder",
+            "tier": 8,
+            "stack_size": 500
+        },
+        {
+            "name": "Nuclear Pasta",
+            "key_name": "nuclear-pasta",
+            "tier": 8,
+            "stack_size": 50
         },
         {
             "name": "Uranium",
@@ -2646,6 +2671,38 @@
                 ["radio-control-unit", 2]
             ],
             "product": ["pressure-conversion-cube", 1]
+        },
+   	    {
+            "name": "Copper Powder",
+            "key_name": "copper-powder",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["copper-ingot", 30]
+            ],
+            "product": ["copper-powder", 5]
+        },
+   	    {
+            "name": "Nuclear Pasta",
+            "key_name": "nuclear-pasta",
+            "category": "crafting5",
+            "time": 120,
+            "ingredients": [
+                ["copper-powder", 200],
+                ["pressure-conversion-cube", 1]
+            ],
+            "product": ["nuclear-pasta", 1]
+        },
+   	    {
+            "name": "Assembly Director System",
+            "key_name": "assembly-director-system",
+            "category": "crafting2",
+            "time": 80,
+            "ingredients": [
+                ["adaptive-control-unit", 2],
+                ["supercomputer", 1]
+            ],
+            "product": ["assembly-director-system", 1]
         }
     ],
     "resources": [
