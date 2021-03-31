@@ -499,7 +499,7 @@
             "name": "Filter",
             "key_name": "filter",
             "tier": 6,
-            "stack_size": 100
+            "stack_size": 50
         },
         {
             "name": "Flower Petals",
@@ -624,7 +624,7 @@
         {
             "name": "Heat Sink",
             "key_name": "heat-sink",
-            "tier": 7,
+            "tier": 8,
             "stack_size": 100
         },
         {
@@ -636,7 +636,7 @@
         {
             "name": "Turbo Motor",
             "key_name": "turbo-motor",
-            "tier": 7,
+            "tier": 8,
             "stack_size": 100
         },
         {
@@ -648,7 +648,7 @@
         {
             "name": "Uranium",
             "key_name": "uranium",
-            "tier": 7,
+            "tier": 8,
             "stack_size": 100
         },
         {
@@ -666,32 +666,32 @@
         {
             "name": "Uranium Pellet",
             "key_name": "uranium-pellet",
-            "tier": 7,
+            "tier": 8,
             "stack_size": 200
         },
         {
             "name": "Uranium Cell",
             "key_name": "uranium-cell",
-            "tier": 7,
-            "stack_size": 100
+            "tier": 8,
+            "stack_size": 200
         },
         {
             "name": "Electromagnetic Control Rod",
             "key_name": "em-control-rod",
-            "tier": 7,
+            "tier": 8,
             "stack_size": 100
         },
         {
-            "name": "Nuclear Fuel Rod",
-            "key_name": "nuclear-fuel-rod",
-            "tier": 7,
-            "stack_size": 100
+            "name": "Uranium Fuel Rod",
+            "key_name": "uranium-fuel-rod",
+            "tier": 8,
+            "stack_size": 50
         },
         {
             "name": "Iodine Infused Filter",
             "key_name": "iodine-infused-filter",
             "tier": 7,
-            "stack_size": 100
+            "stack_size": 50
         },
 	    		{
             "name": "Nitrogen Gas",
@@ -2265,7 +2265,7 @@
             "time": 12,
             "ingredients": [
                 ["alclad-aluminum-sheet", 8],
-                ["rubber", 14]
+                ["copper-sheet", 9]
             ],
             "product": ["heat-sink", 2]
         },
@@ -2273,37 +2273,49 @@
             "name": "Alternate: Heat Exchanger",
             "key_name": "alt-heat-sink",
             "category": "crafting2",
-            "time": 32,
+            "time": 12,
             "ingredients": [
-                ["alclad-aluminum-sheet", 20],
-                ["copper-sheet", 30]
+                ["aluminum-casing", 3],
+                ["rubber", 4]
             ],
-            "product": ["heat-sink", 7]
+            "product": ["heat-sink", 2]
         },
         {
             "name": "Radio Control Unit",
             "key_name": "radio-control-unit",
             "category": "crafting3",
-            "time": 24,
+            "time": 48,
             "ingredients": [
-                ["heat-sink", 4],
-                ["rubber", 16],
+                ["aluminum-casing", 24],
                 ["crystal-oscillator", 1],
                 ["computer", 1]
             ],
-            "product": ["radio-control-unit", 1]
+            "product": ["radio-control-unit", 2]
         },
         {
-            "name": "Alternate: Radio Control Unit",
-            "key_name": "alt-radio-control-unit",
+            "name": "Alternate: Radio Control System",
+            "key_name": "alt-radio-control-system",
             "category": "crafting3",
-            "time": 48,
+            "time": 40,
             "ingredients": [
-                ["heat-sink", 10],
-                ["supercomputer", 1],
-                ["quartz-crystal", 30]
+                ["crystal-oscillator", 1],
+		["circuit-board", 10],
+                ["aluminum-casing", 45],
+                ["rubber", 30]
             ],
             "product": ["radio-control-unit", 3]
+        },
+	     {
+            "name": "Alternate: Radio Connection Unit",
+            "key_name": "alt-radio-connection-unit",
+            "category": "crafting3",
+            "time": 16,
+            "ingredients": [
+		["heat-sink", 4],
+                ["high-speed-connector", 2],
+                ["quartz-crystal", 12]
+            ],
+            "product": ["radio-control-unit", 1]
         },
         {
             "name": "Turbo Motor",
@@ -2334,15 +2346,29 @@
         {
             "name": "Battery",
             "key_name": "battery",
-            "category": "crafting3",
-            "time": 32,
+            "category": "crafting4",
+            "time": 3,
             "ingredients": [
-                ["alclad-aluminum-sheet", 8],
-                ["wire", 16],
-                ["sulfur", 20],
-                ["plastic", 8]
+                ["sulfuric-acid", 3],
+                ["alumina-solution", 2],
+                ["aluminum-casing", 1]
+                
             ],
-            "product": ["battery", 3]
+            "product": ["battery", 1]
+        },
+	    {
+            "name": "Alternate: Classic Battery",
+            "key_name": "alt-classic-battery",
+            "category": "crafting3",
+            "time": 8,
+            "ingredients": [
+                ["sulfur", 6],
+                ["alclad-aluminum-sheet", 7],
+                ["plastic", 8],
+		["wire", 12]
+                
+            ],
+            "product": ["battery", 4]
         },
         {
             "name": "Sulfuric Acid",
@@ -2380,26 +2406,27 @@
         {
             "name": "Encased Uranium Cell",
             "key_name": "uranium-cell",
-            "category": "crafting2",
-            "time": 60,
+            "category": "crafting4",
+            "time": 12,
             "ingredients": [
-                ["uranium-pellet", 40],
-                ["concrete", 9]
+                ["uranium", 10],
+		["concrete", 3],
+                ["sulfuric-acid", 8]
             ],
-            "product": ["uranium-cell", 10]
+            "product": ["uranium-cell", 5]
         },
         {
             "name": "Alternate: Infused Uranium Cell",
             "key_name": "alt-uranium-cell",
             "category": "crafting3",
-            "time": 120,
+            "time": 8,
             "ingredients": [
-                ["uranium-pellet", 40],
-                ["sulfur", 45],
-                ["silica", 45],
-                ["quickwire", 75]
+                ["uranium-pellet", 2],
+                ["silica", 3],
+                ["sulfur", 4],
+                ["quickwire", 5]
             ],
-            "product": ["uranium-cell", 35]
+            "product": ["uranium-cell", 3]
         },
         {
             "name": "Electromagnetic Control Rod",
@@ -2416,37 +2443,37 @@
             "name": "Alternate: Electromagnetic Connection Rod",
             "key_name": "alt-em-control-rod",
             "category": "crafting2",
-            "time": 60,
+            "time": 15,
             "ingredients": [
-                ["stator", 10],
-                ["high-speed-connector", 5]
+                ["stator", 2],
+                ["high-speed-connector", 1]
             ],
-            "product": ["em-control-rod", 10]
+            "product": ["em-control-rod", 2]
         },
         {
-            "name": "Nuclear Fuel Rod",
-            "key_name": "nuclear-fuel-rod",
+            "name": "Uranium Fuel Rod",
+            "key_name": "uranium-fuel-rod",
             "category": "crafting3",
             "time": 150,
             "ingredients": [
-                ["uranium-cell", 25],
+                ["uranium-cell", 50],
                 ["encased-industrial-beam", 3],
                 ["em-control-rod", 5]
             ],
-            "product": ["nuclear-fuel-rod", 1]
+            "product": ["uranium-fuel-rod", 1]
         },
         {
-            "name": "Alternate: Nuclear Fuel Rod",
-            "key_name": "alt-nuclear-fuel-rod",
+            "name": "Alternate: Nuclear Fuel Unit",
+            "key_name": "alt-nuclear-fuel-unit",
             "category": "crafting3",
             "time": 300,
             "ingredients": [
-                ["uranium-cell", 50],
+                ["uranium-cell", 100],
                 ["em-control-rod", 10],
                 ["crystal-oscillator", 3],
                 ["beacon", 6]
             ],
-            "product": ["nuclear-fuel-rod", 3]
+            "product": ["uranium-fuel-rod", 3]
         },
         {
             "name": "Iodine Infused Filter",
