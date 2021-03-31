@@ -651,6 +651,12 @@
             "tier": 7,
             "stack_size": 50
         },
+	  {
+            "name": "Packaged Sulfuric Acid",
+            "key_name": "packaged-sulfuric-acid",
+            "tier": 7,
+            "stack_size": 100
+        },  
         {
             "name": "Uranium Pellet",
             "key_name": "uranium-pellet",
@@ -1551,7 +1557,7 @@
 		{
             "name": "Packaged Oil",
             "key_name": "packaged-oil",
-            "category": "refining",
+            "category": "packaging",
             "time": 4,
             "ingredients": [
                 ["crude-oil", 2],
@@ -1562,7 +1568,7 @@
 		{
             "name": "Packaged Heavy Oil Residue",
             "key_name": "packaged-heavy-oil-residue",
-            "category": "refining",
+            "category": "packaging",
             "time": 4,
             "ingredients": [
                 ["heavy-oil-residue", 2],
@@ -1627,7 +1633,7 @@
 		{
             "name": "Packaged Liquid Biofuel",
             "key_name": "packaged-liquid-biofuel",
-            "category": "refining",
+            "category": "packaging",
             "time": 3,
             "ingredients": [
                 ["liquid-biofuel", 2],
@@ -2250,6 +2256,17 @@
                 ["water", 5]
             ],
             "product": ["sulfuric-acid", 10]
+        },
+	    {
+            "name": "Packaged Sulfuric Acid",
+            "key_name": "packaged-sulfuric-acid",
+            "category": "packaging",
+            "time": 3,
+            "ingredients": [
+                ["sulfuric-acid", 2],
+                ["empty-canister", 2]
+            ],
+            "product": ["packaged-sulfuric-acid", 2]
         },
         {
             "name": "Uranium Pellet",
