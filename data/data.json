@@ -615,6 +615,12 @@
             "tier": 7,
             "stack_size": 100
         },
+	    {
+            "name": "Aluminum Casing",
+            "key_name": "aluminum-casing",
+            "tier": 7,
+            "stack_size": 200
+        },
         {
             "name": "Heat Sink",
             "key_name": "heat-sink",
@@ -2230,6 +2236,27 @@
                 ["copper-ingot", 1]
             ],
             "product": ["alclad-aluminum-sheet", 3]
+        },
+	    {
+            "name": "Aluminum Casing",
+            "key_name": "aluminum-casing",
+            "category": "crafting1",
+            "time": 2,
+            "ingredients": [
+                ["aluminum-ingot", 3]
+            ],
+            "product": ["aluminum-casing", 2]
+        },
+	    {
+            "name": "Alternate: Alclad Casing",
+            "key_name": "alt-alclad-casing",
+            "category": "crafting2",
+            "time": 8,
+            "ingredients": [
+                ["aluminum-ingot", 15],
+		["copper-ingot", 10]
+            ],
+            "product": ["aluminum-casing", 15]
         },
         {
             "name": "Heat Sink",
