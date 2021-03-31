@@ -2439,7 +2439,7 @@
                 ["empty-fluid-tank", 1]
             ],
             "product": ["packaged-nitric-acid", 1]
-        },
+        }
     ],
     "resources": [
         {
