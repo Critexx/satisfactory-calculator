@@ -621,6 +621,12 @@
             "tier": 7,
             "stack_size": 200
         },
+	    {
+            "name": "Battery",
+            "key_name": "battery",
+            "tier": 7,
+            "stack_size": 100
+        },
         {
             "name": "Heat Sink",
             "key_name": "heat-sink",
@@ -637,12 +643,6 @@
             "name": "Turbo Motor",
             "key_name": "turbo-motor",
             "tier": 8,
-            "stack_size": 100
-        },
-        {
-            "name": "Battery",
-            "key_name": "battery",
-            "tier": 7,
             "stack_size": 100
         },
         {
