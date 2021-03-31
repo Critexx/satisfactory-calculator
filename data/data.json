@@ -2365,7 +2365,7 @@
             "category": "crafting3",
             "time": 32,
             "ingredients": [
-                ["heat-sink", 4],
+                ["cooling-system", 4],
                 ["radio-control-unit", 2],
                 ["motor", 4],
                 ["rubber", 24]
@@ -2380,10 +2380,23 @@
             "ingredients": [
                 ["motor", 7],
                 ["radio-control-unit", 5],
-                ["ai-limiter", 9],
-                ["stator", 7]
+                ["em-control-rod", 7],
+                ["rotor", 9]
             ],
             "product": ["turbo-motor", 3]
+        },
+        {
+            "name": "Alternate: Turbo Pressure Motor",
+            "key_name": "alt-turbo-pressure-motor",
+            "category": "crafting3",
+            "time": 16,
+            "ingredients": [
+                ["motor", 2],
+                ["pressure-conversion-cube", 1],
+                ["packaged-nitrogen-gas", 15],
+                ["stator", 6]
+            ],
+            "product": ["turbo-motor", 1]
         },
         {
             "name": "Battery",
