@@ -802,6 +802,12 @@
             "key_name": "plutonium-pellet",
             "tier": 8,
             "stack_size": 100
+        },
+        {
+            "name": "Encased Plutonium Cell",
+            "key_name": "encased-plutonium-cell",
+            "tier": 8,
+            "stack_size": 200
         }
     ],
     "recipes": [
