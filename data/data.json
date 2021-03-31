@@ -94,7 +94,7 @@
             "name": "Nuclear Power Plant",
             "key_name": "nuclear-power-plant",
             "category": "nuclear",
-            "power": 0,
+            "power": 1,
             "max": 1
         }
     ],
