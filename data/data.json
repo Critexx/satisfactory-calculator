@@ -2808,6 +2808,18 @@
 		["sulfuric-acid", 15]
             ],
             "product": ["non-fissile-uranium", 20]
+        },
+	    
+   	    {
+            "name": "Plutonium Pellet",
+            "key_name": "plutonium-pellet",
+            "category": "crafting5",
+            "time": 60,
+            "ingredients": [
+                ["non-fissile-uranium", 100],
+		["uranium-waste", 50]
+            ],
+            "product": ["plutonium-pellet", 30]
         }
     ],
     "resources": [
