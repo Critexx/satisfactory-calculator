@@ -2407,8 +2407,17 @@
                 ["iron-plate", 1]
             ],
             "product": ["nitric-acid", 6]
+        },
+	    {
+            "name": "Empty Fluid Tank",
+            "key_name": "empty-fluid-tank",
+            "category": "crafting1",
+            "time": 1,
+            "ingredients": [
+                ["aluminum-ingot", 1]
+            ],
+            "product": ["empty-fluid-tank", 1]
         }
-	    
     ],
     "resources": [
         {
