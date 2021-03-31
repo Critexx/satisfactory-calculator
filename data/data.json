@@ -94,7 +94,7 @@
             "name": "Nuclear Power Plant",
             "key_name": "nuclear-power-plant",
             "category": "nuclear",
-            "power": 1,
+            "power": 5,
             "max": 1
         }
     ],
@@ -2771,76 +2771,6 @@
 		["fused-modular-frame", 2]
             ],
             "product": ["thermal-propulsion-rocket", 2]
-        },
-   	    {
-            "name": "Nuclear Waste",
-            "key_name": "nuclear-waste",
-            "category": "nuclear",
-            "time": 300,
-            "ingredients": [
-		["uranium-fuel-rod", 1]
-            ],
-            "product": ["nuclear-waste", 100]
-        },
-   	    {
-            "name": "Non-fissile Uranium",
-            "key_name": "non-fissile-uranium",
-            "category": "crafting4",
-            "time": 12,
-            "ingredients": [
-                ["nuclear-waste", 15],
-                ["nitric-acid", 3],
-                ["sulfuric-acid", 6],
-		["silica", 5]
-            ],
-            "product": ["non-fissile-uranium", 10]
-        },
-   	    {
-            "name": "Alternate: Fertile Uranium",
-            "key_name": "alt-fertile-uranium",
-            "category": "crafting4",
-            "time": 12,
-            "ingredients": [
-                ["uranium", 5],
-                ["nuclear-waste", 10],
-                ["nitric-acid", 15],
-		["sulfuric-acid", 15]
-            ],
-            "product": ["non-fissile-uranium", 20]
-        },
-   	    {
-            "name": "Plutonium Pellet",
-            "key_name": "plutonium-pellet",
-            "category": "crafting5",
-            "time": 60,
-            "ingredients": [
-                ["non-fissile-uranium", 100],
-		["nuclear-waste", 50]
-            ],
-            "product": ["plutonium-pellet", 30]
-        },
-   	    {
-            "name": "Encased Plutonium Cell",
-            "key_name": "encased-plutonium-cell",
-            "category": "crafting2",
-            "time": 6,
-            "ingredients": [
-                ["plutonium-pellet", 1],
-		["concrete", 2]
-            ],
-            "product": ["encased-plutonium-cell", 1]
-        },
-   	    {
-            "name": "Alternate: Instant Plutonium Cell",
-            "key_name": "alt-instant-plutonium-cell",
-            "category": "crafting5",
-            "time": 60,
-            "ingredients": [
-                ["non-fissile-uranium", 75],
-                ["aluminum", 25],
-		["nitrogen-gas", 25]
-            ],
-            "product": ["encased-plutonium-cell", 25]
         }
     ],
     "resources": [
