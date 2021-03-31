@@ -125,7 +125,7 @@
             "key_name": "resource-well-extractor",
             "category": "gas",
             "base_rate": 60,
-            "power": 10
+            "power": 40
         }
     ],
     "items": [
@@ -690,6 +690,12 @@
 	    		{
             "name": "Nitrogen Gas",
             "key_name": "nitrogen-gas",
+            "tier": 8,
+            "stack_size": 50
+        },
+	       		{
+            "name": "Nitric Acid",
+            "key_name": "nitric-acid",
             "tier": 8,
             "stack_size": 50
         }
@@ -1608,6 +1614,16 @@
             ],
             "product": ["fuel", 4]
         },
+	    	{
+            "name": "Unpackaged Fuel",
+            "key_name": "unpackaged-fuel",
+            "category": "packaging",
+            "time": 2,
+            "ingredients": [
+                ["packaged-fuel", 2]
+            ],
+            "product": ["fuel", 2]
+        },
 	    {
             "name": "Alternate: Diluted Fuel",
             "key_name": "alt-diluted-fuel",
@@ -1622,7 +1638,7 @@
 		{
             "name": "Packaged Turbofuel",
             "key_name": "packaged-turbofuel",
-            "category": "refining",
+            "category": "packaging",
             "time": 6,
             "ingredients": [
                 ["turbofuel", 2],
@@ -2361,6 +2377,18 @@
                 ["rubber", 2]
             ],
             "product": ["iodine-infused-filter", 1]
+        },
+	    {
+            "name": "Nitric Acid",
+            "key_name": "nitric-acid",
+            "category": "crafting4",
+            "time": 6,
+            "ingredients": [
+                ["nitrogen-gas", 24],
+                ["water", 6],
+                ["iron-plate", 1]
+            ],
+            "product": ["nitric-acid", 6]
         }
     ],
     "resources": [
