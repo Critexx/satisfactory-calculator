@@ -693,6 +693,18 @@
             "tier": 8,
             "stack_size": 100
         },
+	    {
+            "name": "Fused Modular Frame",
+            "key_name": "fused-modular-frame",
+            "tier": 8,
+            "stack_size": 50
+        },
+	    {
+            "name": "Pressure Conversion Cube",
+            "key_name": "pressure-conversion-cube",
+            "tier": 8,
+            "stack_size": 50
+        },
         {
             "name": "Turbo Motor",
             "key_name": "turbo-motor",
@@ -2585,6 +2597,42 @@
                 ["nitrogen-gas", 24]
             ],
             "product": ["cooling-system", 2]
+        },
+	    {
+            "name": "Fused Modular Frame",
+            "key_name": "fused-modular-frame",
+            "category": "crafting4",
+            "time": 40,
+            "ingredients": [
+                ["heavy-modular-frame", 1],
+		["aluminum-casing", 50],
+                ["nitrogen-gas", 25]
+            ],
+            "product": ["fused-modular-frame", 1]
+        },
+	    {
+            "name": "Alternate: Heat-Fused Frame",
+            "key_name": "alt-heat-fused-frame",
+            "category": "crafting4",
+            "time": 20,
+            "ingredients": [
+                ["heavy-modular-frame", 1],
+		["aluminum-ingot", 50],
+		["nitric-acid", 8],
+                ["fuel", 10]
+            ],
+            "product": ["fused-modular-frame", 1]
+        },
+   	    {
+            "name": "Pressure Conversion Cube",
+            "key_name": "pressure-conversion-cube",
+            "category": "crafting2",
+            "time": 60,
+            "ingredients": [
+                ["fused-modular-frame", 1],
+                ["radio-control-unit", 2]
+            ],
+            "product": ["pressure-conversion-cube", 1]
         }
     ],
     "resources": [
