@@ -627,31 +627,13 @@
             "tier": 7,
             "stack_size": 100
         },
-        {
-            "name": "Heat Sink",
-            "key_name": "heat-sink",
-            "tier": 8,
-            "stack_size": 100
-        },
-        {
+	    {
             "name": "Radio Control Unit",
             "key_name": "radio-control-unit",
             "tier": 7,
             "stack_size": 100
         },
-        {
-            "name": "Turbo Motor",
-            "key_name": "turbo-motor",
-            "tier": 8,
-            "stack_size": 100
-        },
-        {
-            "name": "Uranium",
-            "key_name": "uranium",
-            "tier": 8,
-            "stack_size": 100
-        },
-        {
+	    {
             "name": "Sulfuric Acid",
             "key_name": "sulfuric-acid",
             "tier": 7,
@@ -664,36 +646,18 @@
             "stack_size": 100
         },  
         {
-            "name": "Uranium Pellet",
-            "key_name": "uranium-pellet",
-            "tier": 8,
-            "stack_size": 200
-        },
-        {
-            "name": "Uranium Cell",
-            "key_name": "uranium-cell",
-            "tier": 8,
-            "stack_size": 200
-        },
-        {
-            "name": "Electromagnetic Control Rod",
-            "key_name": "em-control-rod",
-            "tier": 8,
-            "stack_size": 100
-        },
-        {
-            "name": "Uranium Fuel Rod",
-            "key_name": "uranium-fuel-rod",
-            "tier": 8,
-            "stack_size": 50
-        },
-        {
             "name": "Iodine Infused Filter",
             "key_name": "iodine-infused-filter",
             "tier": 7,
             "stack_size": 50
         },
-	    		{
+        {
+            "name": "Heat Sink",
+            "key_name": "heat-sink",
+            "tier": 8,
+            "stack_size": 100
+        },
+	        		{
             "name": "Nitrogen Gas",
             "key_name": "nitrogen-gas",
             "tier": 8,
@@ -722,6 +686,48 @@
             "key_name": "packaged-nitric-acid",
             "tier": 8,
             "stack_size": 100
+        },
+	    {
+            "name": "Cooling System",
+            "key_name": "cooling-system",
+            "tier": 8,
+            "stack_size": 100
+        },
+        {
+            "name": "Turbo Motor",
+            "key_name": "turbo-motor",
+            "tier": 8,
+            "stack_size": 100
+        },
+        {
+            "name": "Uranium",
+            "key_name": "uranium",
+            "tier": 8,
+            "stack_size": 100
+        },
+        {
+            "name": "Uranium Pellet",
+            "key_name": "uranium-pellet",
+            "tier": 8,
+            "stack_size": 200
+        },
+        {
+            "name": "Uranium Cell",
+            "key_name": "uranium-cell",
+            "tier": 8,
+            "stack_size": 200
+        },
+        {
+            "name": "Electromagnetic Control Rod",
+            "key_name": "em-control-rod",
+            "tier": 8,
+            "stack_size": 100
+        },
+        {
+            "name": "Uranium Fuel Rod",
+            "key_name": "uranium-fuel-rod",
+            "tier": 8,
+            "stack_size": 50
         }
     ],
     "recipes": [
@@ -2530,6 +2536,31 @@
                 ["empty-fluid-tank", 1]
             ],
             "product": ["packaged-nitric-acid", 1]
+        }
+	    {
+            "name": "Cooling System",
+            "key_name": "cooling-system",
+            "category": "crafting4",
+            "time": 10,
+            "ingredients": [
+                ["heat-sink", 2],
+		["rubber", 2],
+		["water", 5],
+                ["nitrogen-gas", 25]
+            ],
+            "product": ["cooling-system", 1]
+        },
+   {
+            "name": "Alternate: Cooling Device",
+            "key_name": "alt-cooling-device",
+            "category": "crafting4",
+            "time": 32,
+            "ingredients": [
+                ["heat-sink", 2],
+		["motor", 1],
+                ["nitrogen-gas", 24]
+            ],
+            "product": ["cooling-system", 2]
         }
     ],
     "resources": [
