@@ -2268,12 +2268,12 @@
             "name": "Alternate: Sloppy Alumina",
             "key_name": "alt-sloppy-alumina",
             "category": "refining",
-            "time": 6,
+            "time": 3,
             "ingredients": [
-                ["bauxite", 15],
-                ["water", 15]
+                ["bauxite", 10],
+                ["water", 10]
             ],
-            "product": ["alumina-solution", 18]
+            "product": ["alumina-solution", 12]
         },
 	    {
             "name": "Packaged Alumina Solution",
@@ -2317,7 +2317,7 @@
                 ["bauxite", 15],
 		["coal", 10],
 		["sulfuric-acid", 5],
-                ["water", 11]
+                ["water", 6]
             ],
             "product": ["aluminum-scrap", 30]
         },
@@ -2336,11 +2336,11 @@
             "name": "Alternate: Pure Aluminum Ingot",
             "key_name": "alt-aluminum-ingot",
             "category": "smelting1",
-            "time": 20,
+            "time": 2,
             "ingredients": [
-                ["aluminum-scrap", 18]
+                ["aluminum-scrap", 2]
                ],
-            "product": ["aluminum-ingot", 9]
+            "product": ["aluminum-ingot", 1]
         },
         {
             "name": "Alclad Aluminum Sheet",
@@ -2369,7 +2369,7 @@
             "category": "crafting2",
             "time": 8,
             "ingredients": [
-                ["aluminum-ingot", 15],
+                ["aluminum-ingot", 20],
 		["copper-ingot", 10]
             ],
             "product": ["aluminum-casing", 15]
@@ -2380,21 +2380,21 @@
             "category": "crafting2",
             "time": 12,
             "ingredients": [
-                ["alclad-aluminum-sheet", 8],
-                ["copper-sheet", 9]
+                ["alclad-aluminum-sheet", 5],
+                ["copper-sheet", 3]
             ],
-            "product": ["heat-sink", 2]
+            "product": ["heat-sink", 1]
         },
         {
             "name": "Alternate: Heat Exchanger",
             "key_name": "alt-heat-sink",
             "category": "crafting2",
-            "time": 12,
+            "time": 6,
             "ingredients": [
                 ["aluminum-casing", 3],
-                ["rubber", 4]
+                ["rubber", 3]
             ],
-            "product": ["heat-sink", 2]
+            "product": ["heat-sink", 1]
         },
         {
             "name": "Radio Control Unit",
@@ -2402,7 +2402,7 @@
             "category": "crafting3",
             "time": 48,
             "ingredients": [
-                ["aluminum-casing", 24],
+                ["aluminum-casing", 32],
                 ["crystal-oscillator", 1],
                 ["computer", 1]
             ],
@@ -2416,7 +2416,7 @@
             "ingredients": [
                 ["crystal-oscillator", 1],
 		["circuit-board", 10],
-                ["aluminum-casing", 45],
+                ["aluminum-casing", 60],
                 ["rubber", 30]
             ],
             "product": ["radio-control-unit", 3]
@@ -2447,15 +2447,15 @@
             "product": ["turbo-motor", 1]
         },
         {
-            "name": "Alternate: Turbo Rigour Motor",
-            "key_name": "alt-turbo-motor",
+            "name": "Alternate: Turbo Electric Motor",
+            "key_name": "alt-electric-motor",
             "category": "crafting3",
             "time": 64,
             "ingredients": [
                 ["motor", 7],
-                ["radio-control-unit", 5],
-                ["em-control-rod", 7],
-                ["rotor", 9]
+                ["radio-control-unit", 9],
+                ["em-control-rod", 5],
+                ["rotor", 7]
             ],
             "product": ["turbo-motor", 3]
         },
@@ -2463,14 +2463,14 @@
             "name": "Alternate: Turbo Pressure Motor",
             "key_name": "alt-turbo-pressure-motor",
             "category": "crafting3",
-            "time": 16,
+            "time": 32,
             "ingredients": [
-                ["motor", 2],
+                ["motor", 4],
                 ["pressure-conversion-cube", 1],
-                ["packaged-nitrogen-gas", 15],
-                ["stator", 6]
+                ["packaged-nitrogen-gas", 24],
+                ["stator", 8]
             ],
-            "product": ["turbo-motor", 1]
+            "product": ["turbo-motor", 2]
         },
         {
             "name": "Battery",
@@ -2522,17 +2522,6 @@
             "product": ["packaged-sulfuric-acid", 2]
         },
         {
-            "name": "Uranium Pellet",
-            "key_name": "uranium-pellet",
-            "category": "refining",
-            "time": 6,
-            "ingredients": [
-                ["uranium", 5],
-                ["sulfuric-acid", 8]
-            ],
-            "product": ["uranium-pellet", 5]
-        },
-        {
             "name": "Encased Uranium Cell",
             "key_name": "uranium-cell",
             "category": "crafting4",
@@ -2548,14 +2537,14 @@
             "name": "Alternate: Infused Uranium Cell",
             "key_name": "alt-uranium-cell",
             "category": "crafting3",
-            "time": 8,
+            "time": 12,
             "ingredients": [
-                ["uranium-pellet", 2],
+                ["uranium", 5],
                 ["silica", 3],
-                ["sulfur", 4],
-                ["quickwire", 5]
+                ["sulfur", 5],
+                ["quickwire", 15]
             ],
-            "product": ["uranium-cell", 3]
+            "product": ["uranium-cell", 4																]
         },
         {
             "name": "Electromagnetic Control Rod",
@@ -2679,7 +2668,7 @@
             "category": "crafting4",
             "time": 32,
             "ingredients": [
-                ["heat-sink", 2],
+                ["heat-sink", 5],
 		["motor", 1],
                 ["nitrogen-gas", 24]
             ],
@@ -2796,9 +2785,9 @@
             "time": 12,
             "ingredients": [
                 ["uranium-waste", 15],
-                ["nitric-acid", 3],
-                ["sulfuric-acid", 6],
-		["silica", 5]
+                ["silica", 5],
+		["nitric-acid", 6],
+		["sulfuric-acid", 3]
             ],
             "product": ["non-fissile-uranium", 10]
         },
@@ -2810,8 +2799,8 @@
             "ingredients": [
                 ["uranium", 5],
                 ["uranium-waste", 10],
-                ["nitric-acid", 15],
-		["sulfuric-acid", 15]
+                ["nitric-acid", 8],
+		["sulfuric-acid", 8]
             ],
             "product": ["non-fissile-uranium", 20]
         },
@@ -2832,10 +2821,10 @@
             "name": "Encased Plutonium Cell",
             "key_name": "encased-plutonium-cell",
             "category": "crafting2",
-            "time": 6,
+            "time": 12,
             "ingredients": [
-                ["plutonium-pellet", 1],
-		["concrete", 2]
+                ["plutonium-pellet", 2],
+		["concrete", 4]
             ],
             "product": ["encased-plutonium-cell", 1]
         },
@@ -2843,13 +2832,13 @@
             "name": "Alternate: Instant Plutonium Cell",
             "key_name": "alt-instant-plutonium-cell",
             "category": "crafting5",
-            "time": 60,
+            "time": 120,
             "ingredients": [
-                ["non-fissile-uranium", 75],
-                ["aluminum-casing", 25],
-		["nitrogen-gas", 25]
+                ["non-fissile-uranium", 150],
+                ["aluminum-casing", 50],
+		["nitrogen-gas", 20]
             ],
-            "product": ["encased-plutonium-cell", 25]
+            "product": ["encased-plutonium-cell", 20]
         },
 	    {
             "name": "Plutonium Fuel Rod",
@@ -2870,7 +2859,7 @@
             "category": "crafting2",
             "time": 60,
             "ingredients": [
-                ["encased-plutonium-cell", 10],
+                ["encased-plutonium-cell", 20],
 		["pressure-conversion-cube", 1]
             ],
             "product": ["plutonium-fuel-rod", 1]
