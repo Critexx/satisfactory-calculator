@@ -2378,7 +2378,7 @@
             "name": "Heat Sink",
             "key_name": "heat-sink",
             "category": "crafting2",
-            "time": 12,
+            "time": 8,
             "ingredients": [
                 ["alclad-aluminum-sheet", 5],
                 ["copper-sheet", 3]
@@ -2478,7 +2478,7 @@
             "category": "crafting4",
             "time": 3,
             "ingredients": [
-                ["sulfuric-acid", 3],
+                ["sulfuric-acid", 2.5],
                 ["alumina-solution", 2],
                 ["aluminum-casing", 1]
                 
