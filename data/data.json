@@ -2476,14 +2476,14 @@
             "name": "Battery",
             "key_name": "battery",
             "category": "crafting4",
-            "time": 3,
+            "time": 6,
             "ingredients": [
-                ["sulfuric-acid", 2.5],
-                ["alumina-solution", 2],
-                ["aluminum-casing", 1]
+                ["sulfuric-acid", 5],
+                ["alumina-solution", 4],
+                ["aluminum-casing", 2]
                 
             ],
-            "product": ["battery", 1]
+            "product": ["battery", 2]
         },
 	    {
             "name": "Alternate: Classic Battery",
@@ -2775,21 +2775,21 @@
             "ingredients": [
 		["uranium-fuel-rod", 1]
             ],
-            "product": ["uranium-waste", 100]
+            "product": ["uranium-waste", 50]
         },
 	    
    	    {
             "name": "Non-fissile Uranium",
             "key_name": "non-fissile-uranium",
             "category": "crafting4",
-            "time": 12,
+            "time": 24,
             "ingredients": [
                 ["uranium-waste", 15],
-                ["silica", 5],
+                ["silica", 10],
 		["nitric-acid", 6],
-		["sulfuric-acid", 3]
+		["sulfuric-acid", 6]
             ],
-            "product": ["non-fissile-uranium", 10]
+            "product": ["non-fissile-uranium", 20]
         },
    	    {
             "name": "Alternate: Fertile Uranium",
@@ -2798,9 +2798,9 @@
             "time": 12,
             "ingredients": [
                 ["uranium", 5],
-                ["uranium-waste", 10],
-                ["nitric-acid", 8],
-		["sulfuric-acid", 8]
+                ["uranium-waste", 5],
+                ["nitric-acid", 3],
+		["sulfuric-acid", 5]
             ],
             "product": ["non-fissile-uranium", 20]
         },
@@ -2812,7 +2812,7 @@
             "time": 60,
             "ingredients": [
                 ["non-fissile-uranium", 100],
-		["uranium-waste", 50]
+		["uranium-waste", 25]
             ],
             "product": ["plutonium-pellet", 30]
         },
@@ -2835,8 +2835,7 @@
             "time": 120,
             "ingredients": [
                 ["non-fissile-uranium", 150],
-                ["aluminum-casing", 50],
-		["nitrogen-gas", 20]
+                ["aluminum-casing", 20]
             ],
             "product": ["encased-plutonium-cell", 20]
         },
