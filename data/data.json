@@ -2306,7 +2306,7 @@
                 ["alumina-solution", 12],
                 ["petroleum-coke", 4]
             ],
-            "product": ["aluminum-scrap", 8]
+            "product": ["aluminum-scrap", 30]
         },
 	    {
             "name": "Alternate: Instant Scrap",
