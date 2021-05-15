@@ -2508,7 +2508,7 @@
                 ["sulfur", 5],
                 ["water", 5]
             ],
-            "product": ["sulfuric-acid", 10]
+            "product": ["sulfuric-acid", 5]
         },
 	    {
             "name": "Packaged Sulfuric Acid",
